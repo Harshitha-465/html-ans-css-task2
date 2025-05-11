@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+<div class="form-div">
+    <i class='bx bxs-user-circle'></i>
+<h1>Login Here</h1>
+<form>
+<input type="text" placeholder="UserName"><br>
+<input type="password" placeholder="Password"><br>
+<input type="submit" value="login">
+</form>
+</div>
+</body>
+</html>

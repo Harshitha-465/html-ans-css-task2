@@ -1,0 +1,63 @@
+body{
+
+
+    margin:0;
+    background:white url("th.jpg") no-repeat scroll top left;
+    background-size:cover;
+}
+.form-div
+{
+
+
+   width:200px;
+   text-align:center;
+   margin: 150px auto;
+   background-color:rgb(0,0,0,0.5);
+   outline:none;
+   box-shadow:8px 8px 8px skyblue, -8px -8px 8px skyblue;
+
+}
+.form-div i{
+
+   margin-top:-5px;
+}
+div h1{
+
+    color:white;
+    font-size:20px;
+    padding:10px;
+}
+input[type='text'],input[type='password']
+{
+    border-radius:10px;
+    text-align:center;
+    font-size:14px;
+    padding:3px;
+   margin:3px;
+   outline:none;
+   border:none;
+   background:transparent;
+   color:white;
+   border-bottom:3px solid skyblue;
+   width:150px;
+}
+input[type='text']:hover,input[type='password']:hover
+{
+
+border-bottom:3px solid teal;
+}
+::placeholder{
+
+    color:white;
+}
+input[type='submit']
+{
+padding:6px;
+margin:4px;
+border-radius:10px;
+background-color: teal;
+outline:none;
+border:none;
+font-size:16px;
+color:white;
+}
